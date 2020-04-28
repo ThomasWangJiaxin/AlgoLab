@@ -1,7 +1,7 @@
 # AlgoLab算法教学实验室
 ## AlgoLab——Algorithm Teaching Auxiliary Laboratory
-Author：Thomas Wang, Donghua University, Shanghai, China
-Author's Research: Analysis and Construction of Information System; Big Data Analysis; Commercial Artificial Intelligence
+Author：Thomas Wang, Donghua University, Shanghai, China<br />
+Author's Research: Analysis and Construction of Information System; Big Data Analysis; Commercial Artificial Intelligence<br />
 <p style="line-height:10px">
 
 ## 1. 简介<br />
