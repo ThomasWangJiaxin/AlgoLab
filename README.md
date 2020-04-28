@@ -55,4 +55,79 @@ C．对于高校老师来说，他们更希望能够与学生用户进行互动�
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;教师端主要完成相关学习资源的添加和删除，教师可以可以添加算法教学课程以及算法所涉及的学习资源，比如测试习题、教学视频等，也可以查看该门课程中学生的成绩。<br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;系统管理员端主要实现用户（教师与学生）管理，包括添加、删除和修改操作，同时对算法课程进行管理，包括添加、删除和修改操作。<br />
 我们会不断更新，敬请关注！<br />
+
+
+### 2.2	系统软硬件平台<br />
+#### 2.2.1	系统开发平台<br />
+操作系统<br />
+操作系统名称：Windows 10家庭中文版（x64）<br />
+生产厂家Microsoft Corporation，版本号10.0<br />
+<br />
+数据库<br />
+关系型数据库名称：MySQL，版本号8.0，生产厂家Oracle Corporation.<br />
+图数据库名称：Neo4j，版本号2.1.3，生产厂家Neo4J<br />
+<br />
+系统代码构建实现平台<br />
+Java SE，版本号8.0，生产厂家：Oracle Corporation.<br />
+JDK，版本号1.8，生产厂家：Oracle Corporation.<br />
+IDEA2018，版本号2018.1.3，生产厂家：Jet Brains.<br />
+Springboot开发框架，版本号2.2.6，生产厂家Pivotal.<br />
+<br />
+系统构建工具<br />
+git	2.23.0	https://git-scm.com/downloads<br />
+有效高速处理项目<br />
+版本管理<br />
+node.js	10.15.1	https://nodejs.org/en/<br />
+安装npm<br />
+npm	6.4.x	https://nodejs.org/en/download/<br />
+允许用户下载和安装第三方编写的命令行程序<br />
+
+#### 2.2.2	系统运行平台<br />
+算法辅助教学系统采用B/S架构<br />
+若要在自己的电脑上运行系统，则需安装以下软件并进行配置：<br />
+	Java<br />
+首先我们要下载java开发工具包JDK，下载地址：<br />
+http://www.oracle.com/technetwork/java/javase/downloads/index.html，<br />
+Windows安装地址：https://learner.blog.csdn.net/article/details/88926242<br />
+之后再需要配置环境变量，安装教程：<br />
+https://www.runoob.com/java/java-environment-setup.html<br />
+<br />
+	IDE2018（IntelliJ IDEA）<br />
+下载地址为：https://www.jetbrains.com/idea/download/<br />
+Professionnal版本，选择合适的操作系统版本下载。<br />
+<br />
+	Mysql关系型数据库<br />
+下载地址为：https://www.mysql.com/downloads/<br />
+选择对应的版本下载并安装，并配置环境变量。<br />
+安装教程见：https://www.cnblogs.com/laumians-notes/p/9069498.html<br />
+<br />
+	Navicat for Mysql<br />
+为了方便管理数据库，我们下载数据库管理工具Navicat for Mysql 12.1。安装教程见：<br />
+https://www.navicat.com.cn/manual/online_manual/cn/navicat/win_manual/#/installation<br />
+<br />
+	Neo4j图数据库<br />
+为了方便对大数据算法的知识点进行管理，我们使用Neo4j图数据库进行存储，安装官网为https://neo4j.com/download-center/<br />
+安装教程https://blog.csdn.net/vivian_ll/article/details/89312526<br />
+<br />
+	vis.js可视化<br />
+为了方便将算法知识图谱进行可视化，我们使用vis.js技术进行展示，安装官网为：<br />
+http://visjs.org/dist/vis.js<br />
+http://visjs.org/dist/vis.css<br />
+<br />
+	Python实践模块中案例代码的运行环境设置<br />
+Python 3.6 (Anaconda 5.1亦可, 安装Anaconda之后不需另行安装Python3. 6)<br />
+Anaconda的下载地址为：https://www.anaconda.com/download/<br />
+Python 3.6 的下载地址为：https://www.python.org/downloads/<br />
+安装教程参见：https://blog.csdn.net/huzenhuzen/article/details/8866150<br />
+① 配置环境变量<br />
+需要将Python安装目录/python. exe配置进环境变量，具体操作如下：<br />
+我的电脑 > 属性 > 高级系统设置 > 环境变量 > 系统变量下的path > 编辑 > 添加python路径。<br />
+② 外接库的安装，在命令提示符(cmd)中，使用pip install安装以上库或者框架。<br />
+	pymysql；<br />
+	urllib.request；<br />
+	urllib.parse；<br />
+	time；<br />
+	json；<br />
+	pandas；<br />
+	numpy等<br />
 </p>
