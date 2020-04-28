@@ -1,5 +1,5 @@
-# AlgoLab
-AlgoLab——Algorithm teaching auxiliary platform
+# AlgoLab算法教学实验室
+AlgoLab——Algorithm Teaching Auxiliary Platform
 <p style="line-height:10px">
 1. 简介<br />
 1.1	作品创意/项目背景<br />
